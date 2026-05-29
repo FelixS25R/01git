@@ -1,11 +1,14 @@
 import vektor
 
-x = 1
-y = 2
+x = int(input("Indtast et tal: "))  
+y = int(input("Indtast et andet tal: "))
 
 resultatPlus = vektor.regnplus(x, y)
-print(resultatPlus)  # Output: 3
+print(resultatPlus)  # Output: x+y
 
 
 resultatMinus = vektor.regnminus(x, y)
-print(resultatMinus)  # Output: -1
+print(resultatMinus)  # Output: x-y
+
+#resultatSkalar = vektor.regnskalar(x, y)
+#print(resultatSkalar)  # Output: x*y
